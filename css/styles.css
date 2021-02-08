@@ -169,3 +169,9 @@ body {
 .solutions-list li {
   margin-bottom: 25px;
 }
+
+/* ___page-footer___ */
+
+.page-footer {
+  text-align: center;
+}
