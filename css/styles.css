@@ -42,3 +42,25 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+
+/* ___btn___ */
+
+.btn {
+  display: inline-block;
+  margin: 0;
+  padding: 15px 30px;
+  border: 3px solid #36e1e5;
+  border-radius: 7px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+
+  font: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.7px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
