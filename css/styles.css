@@ -152,3 +152,20 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
+
+/* ___solutions___ */
+
+.solutions-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.solutions-list li {
+  margin-bottom: 25px;
+}
