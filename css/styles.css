@@ -64,3 +64,13 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+
+/* ___hero___ */
+
+.hero__lead {
+  display: block;
+  width: 445px;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 58px;
+}
