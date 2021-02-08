@@ -3,9 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
   <title>DevStarter</title>
 </head>
 <body>
-
+  <header class="page-header">
+    <a class="logo page-header__logo">
+      <img class="logo__image" src="img/logo.png" width="220" height="63" alt="Логотип DevStarter">
+    </a>
+    <ul class="page-header__menu">
+      <li><a class="page-header__link" href="#team">Команда</a></li>
+      <li><a class="page-header__link" href="#contacts">Контакты</a></li>
+    </ul>
+    <div class="lang-selector">
+      <button type="button">
+        <span class="visually-hidden">Выбрать язык</span>
+      </button>
+      <ul class="lang-list">
+        <li class="lang-list__item lang-list__item--active">русский</li>
+        <li class="lang-list__item">английский</li>
+      </ul>
+    </div>
+    <a class="btn" href="request.html">Оставить заявку</a>
+  </header>
+  <main class="page-main">
+    <div class="hero">
+      <b class="hero__lead">Проектирование и разработка MVP за 2 месяца</b>
+      <ul class="hero-list">
+        <li>Вы придумали крутую идею для стартапа?</li>
+        <li>Хотите запустить новое направление в компании?</li>
+        <li>Вам нужна команда для реализации проекта?</li>
+      </ul>
+      <button class="scroll-button" type="button">
+        <span class="visually-hidden">Смотреть далее</span>
+      </button>
+    </div>
+    <section class="features">
+      <h2 class="section-title">Создаем приложения и онлайн-сервисы с продуктовым подходом</h2>
+      <ul class="features-list">
+        <li class="feature">
+          <b class="feature__number">18</b>
+          <p class="feature__text">успешных проектов</p>
+        </li>
+        <li class="feature">
+          <b class="feature__number">12</b>
+          <p class="feature__text">лет опыта</p>
+        </li>
+        <li class="feature">
+          <b class="feature__number">3</b>
+          <p class="feature__text">года на рынке</p>
+        </li>
+      </ul>
+    </section>
+    <section class="solutions">
+      <h2 class="section-title">Наши решения</h2>
+      <ul class="solutions-list">
+        <li>Мобильные приложения</li>
+        <li>Образовательные платформы</li>
+        <li>Решения для сотрудников</li>
+        <li>Телеграм-боты</li>
+        <li>Маркетплейсы</li>
+        <li>Веб-сервисы</li>
+        <li>Сайты</li>
+        <li>AR приложения</li>
+        <li>Личные кабинеты</li>
+        <li>B2B платформы</li>
+        <li>Сервисы онлайн-консультаций</li>
+      </ul>
+    </section>
+    <section class="portfolio">
+      <h2 class="section-title">Кейсы DevStarter</h2>
+      <ul class="case-list">
+        <li class="case">
+          <h3 class="case__title">Password Generator</h3>
+          <p class="case__describe">Генератор надёжных паролей</p>
+        </li>
+        <li class="case">
+          <h3 class="case__title">Booster</h3>
+          <p class="case__describe">Система управления сайтами</p>
+        </li>
+        <li class="case">
+          <h3 class="case__title">Uptime</h3>
+          <p class="case__describe">Система для организации совместной работы и управления проектами</p>
+        </li>
+        <li class="case">
+          <h3 class="case__title">Hi Honey</h3>
+          <p class="case__describe">Защита от автоматического спама и CSRF</p>
+        </li>
+        <li class="case">
+          <h3 class="case__title">Platix</h3>
+          <p class="case__describe">Касса как сервис для интернет торговли</p>
+        </li>
+      </ul>
+    </section>
+    <section class="team">
+      <h2 class="section-title">Команда</h2>
+        <p class="team__text">Мы считаем, что каждый бизнес заслуживает индивидуального подхода.</p>
+        <p class="team__text">С 2011 года мы помогаем компаниям и предпринимателям по всему миру
+          реализовать свое видение программных продуктов, как для себя, так и для своих клиентов.</p>
+        <p class="team__text">Мы понимаем, что каждый клиент имеет уникальные требования, которые
+          требуют уникальных решений. Будучи гибкими в наших моделях разработки, мы обеспечиваем
+          успешные отношения в сложных и меняющихся условиях бизнеса.</p>
+        <p class="team__text">Независимо от отрасли, технологии и функций, мы несем ответственность
+          за любой проект, который мы выполняем. Мы помогаем управлять вашими инвестициями в ИТ,
+          создавать плавный переход между вашими командами и нашими, а также быстро повышать ценность
+          вашего бизнеса. Это позволяет вам сосредоточиться на своем основном бизнесе и получить
+          конкурентные преимущества от сотрудничества с нашей компанией.</p>
+    </section>
+    <section class="contacts">
+      <h2 class="section-title">Контакты</h2>
+      <p class="contacts__subtitle">Есть вопрос? Хотите поделиться отзывом или обсудить ваш проект?
+        Ждем вашего сообщения!</p>
+      <form class="contacts-form">
+        <div class="contacts-form__field">
+          <label class="visually-hidden" for="client-name">Имя</label>
+          <input id="client-name" type="text" placeholder="Имя*">
+        </div>
+        <div class="contacts-form__field">
+          <label class="visually-hidden" for="client-company">Компания</label>
+          <input id="client-company" type="text" placeholder="Компания">
+        </div>
+        <div class="contacts-form__field">
+          <label class="visually-hidden" for="client-email">Email</label>
+          <input id="client-email" type="email" placeholder="Email*">
+        </div>
+        <div class="contacts-form__field">
+          <label class="visually-hidden" for="client-phone">Телефон</label>
+          <input id="client-phone" type="tel" placeholder="Телефон">
+        </div>
+        <div class="contacts-form__field">
+          <label class="visually-hidden" for="client-text">Сообщение</label>
+          <input id="client-text" type="text" placeholder="Сообщение">
+        </div>
+        <button class="btn" type="submit">Отправить</button>
+      </form>
+      <p class="contacts__address">Россия, г. Новокузнецк<br>ул. Новая, 44, офис 777</p>
+      <a class="contacts__email" href="mailto:info@devstarter.technology">info@devstarter.technology</a>
+      <a class="contacts__phone" href="tel:info@devstarter.technology">8 (999) 649 0303</a>
+      <ul class="social-list">
+        <li>
+          <a class="social-link" href="vk.com">ВКонтакте</a>
+        </li>
+        <li>
+          <a class="social-link" href="facebook.com">Фейсбук</a>
+        </li>
+        <li>
+          <a class="social-link" href="linkedin.cn">Линкедин</a>
+        </li>
+        <li>
+          <a class="social-link" href="instagram.com">Инстаграм</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <p class="page-footer__copy">© 2018 - 2020. DevStarter Technology</p>
+  </footer>
 </body>
 </html>
