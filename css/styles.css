@@ -70,7 +70,25 @@ body {
 .hero__lead {
   display: block;
   width: 445px;
+  margin-bottom: 100px;
   font-weight: 300;
   font-size: 50px;
   line-height: 58px;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-list li {
+  width: 200px;
+}
+
+.hero-list li:not(:last-child) {
+  margin-right: 60px;
 }
