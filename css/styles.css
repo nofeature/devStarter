@@ -1,24 +1,24 @@
 @font-face {
   font-weight: 300;
+  font-style: normal;
   font-family: "Gilroy";
-  src: url("../fonts/gilroy-light.woff2"),
-    url("../fonts/gilroy-light.woff");
+  src: url("../fonts/gilroylight.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-weight: 400;
+  font-style: normal;
   font-family: "Gilroy";
-  src: url("../fonts/gilroy-regular.woff2"),
-    url("../fonts/gilroy-regular.woff");
+  src: url("../fonts/gilroyregular.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-weight: 600;
+  font-style: normal;
   font-family: "Gilroy";
-  src: url("../fonts/gilroy-semibold.woff2"),
-    url("../fonts/gilroy-semibold.woff");
+  src: url("../fonts/gilroysemibold.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -36,7 +36,7 @@ body {
 /* ___page-header___ */
 
 .page-header__link {
-  font: inherit;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16.7px;
   color: #ffffff;
