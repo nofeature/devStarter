@@ -179,6 +179,83 @@ body {
   margin-bottom: 25px;
 }
 
+/* ___ contacts ___ */
+
+.contacts__wrapper {
+  display: flex;
+}
+
+.contacts-form {
+  margin-right: 130px;
+}
+
+.contacts-form__field {
+  margin-bottom: 25px;
+}
+
+.contacts-form__field:last-of-type {
+  margin-bottom: 50px;
+}
+
+.contacts-form__field input {
+  width: 458px;
+  margin: 0;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+
+.contacts-form__field input::placeholder {
+  opacity: 1;
+}
+
+.contacts__address {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  line-height: 28px;
+}
+
+.contacts__link {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts__phone {
+  margin-bottom: 35px;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 185px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-list li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.social-link {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+}
+
 /* ___page-footer___ */
 
 .page-footer {
