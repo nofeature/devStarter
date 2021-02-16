@@ -54,7 +54,7 @@ body {
 .page-header__link {
   font-weight: 600;
   font-size: 14px;
-  line-height: 16.7px;
+  line-height: 1.2;
   color: #ffffff;
   text-decoration: none;
 }
@@ -62,9 +62,10 @@ body {
 /* ___btn___ */
 
 .btn {
+  box-sizing: border-box;
   display: inline-block;
   margin: 0;
-  padding: 15px 30px;
+  padding: 12px 27px;
   border: 3px solid #36e1e5;
   border-radius: 7px;
   -webkit-appearance: none;
@@ -75,10 +76,63 @@ body {
   font: inherit;
   font-weight: 600;
   font-size: 14px;
-  line-height: 16.7px;
+  line-height: 1.2;
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
+}
+/* ___ page-header ___ */
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 68px;
+}
+
+.page-header__logo {
+  margin-right: 410px;
+}
+
+.page-header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0;
+  margin-right: 60px;
+  padding: 0;
+  list-style: none;
+}
+
+.lang-selector {
+  max-width: 80px;
+  margin-right: 35px;
+}
+
+.lang-selector__link {
+  display: flex;
+  align-items: center;
+}
+
+.lang-selector__link::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 10px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-image: url("../img/dropdown-arrow.svg");
+  background-position: center;
+}
+
+.lang-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* ___hero___ */
