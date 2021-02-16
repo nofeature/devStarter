@@ -137,6 +137,24 @@ body {
 
 /* ___hero___ */
 
+.hero {
+  position: relative;
+  padding-top: 115px;
+  padding-bottom: 127px;
+}
+
+.hero .container {
+  position: relative;
+}
+
+.hero__icon {
+  position: absolute;
+  top: -115px;
+  right: 0;
+  filter: drop-shadow(0 40px 100px #1f3962);
+  -webkit-filter: drop-shadow(0 40px 100px #1f3962);
+}
+
 .hero__lead {
   display: block;
   width: 445px;
@@ -161,6 +179,14 @@ body {
 
 .hero-list li:not(:last-child) {
   margin-right: 60px;
+}
+
+.scroll-button {
+  position: absolute;
+  bottom: -127px;
+  display: block;
+  width: 24px;
+  height: 37px;
 }
 
 /*___section-title___*/
