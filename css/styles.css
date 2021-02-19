@@ -259,6 +259,36 @@ body {
   margin-bottom: 25px;
 }
 
+/* ___ portfolio ___ */
+
+.case-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.case-list li {
+  flex-shrink: 0;
+}
+
+.case-list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.case {
+  width: 272px;
+  min-height: 453px;
+  padding: 35px 45px;
+  background-repeat: no-repeat;
+  background-color: #29324F;
+  background-image: url("../img/portfolio-icon.png");
+  border-radius: 10px;
+}
+
 /* ___ contacts ___ */
 
 .contacts__wrapper {
@@ -289,7 +319,6 @@ body {
   line-height: 20px;
   color: #ffffff;
 }
-
 
 .contacts-form__field input::placeholder {
   opacity: 1;
