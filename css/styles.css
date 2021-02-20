@@ -266,6 +266,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0;
+  margin-left: -245px;
   padding: 0;
   list-style: none;
   overflow: hidden;
@@ -280,13 +281,28 @@ body {
 }
 
 .case {
-  width: 272px;
+  width: 282px;
   min-height: 453px;
-  padding: 35px 45px;
+  padding: 35px;
+  padding-left: 45px;
   background-repeat: no-repeat;
   background-color: #29324F;
   background-image: url("../img/portfolio-icon.png");
   border-radius: 10px;
+}
+
+.case__title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.case__describe {
+  margin: 0;
+  padding: 0;
 }
 
 /* ___ contacts ___ */
