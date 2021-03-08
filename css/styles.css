@@ -233,7 +233,7 @@ body {
 .feature {
   width: 106px;
   margin: 0;
-  padding: 17px 79px 35px;
+  padding: 22px 79px 33px;
   text-align: center;
   background-image: linear-gradient(180deg, rgba(44, 52, 81, 0.7) 0%, rgba(44, 53, 82, 0.224) 100%);
   border-radius: 10px;
@@ -241,7 +241,6 @@ body {
 
 .feature__number {
   display: block;
-  margin-bottom: 5px;
   font-weight: bold;
   font-size: 100px;
   line-height: 120px;
@@ -270,7 +269,9 @@ body {
 .solutions-list {
   display: flex;
   flex-direction: column;
+  align-content: space-between;
   flex-wrap: wrap;
+  width: 855px;
   height: 250px;
 
   margin: 0;
@@ -279,15 +280,22 @@ body {
 }
 
 .solutions-list li {
-  width: 285px;
-  margin-right: 25px;
   margin-bottom: 31px;
 }
 
 /* ___ portfolio ___ */
 
+.portfolio {
+  padding-bottom: 60px;
+}
+
+.portfolio__title {
+  margin-bottom: 70px;
+}
+
 .case-list {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0;
@@ -308,6 +316,7 @@ body {
   width: 282px;
   min-height: 453px;
   padding: 35px;
+  padding-top: 37px;
   padding-left: 45px;
   background-repeat: no-repeat;
   background-color: #29324F;
@@ -331,9 +340,17 @@ body {
 
 /* ___ team ___ */
 
+.team {
+  padding-top: 60px;
+}
+
+.team__title {
+  margin-bottom: 51px;
+}
+
 .team__text {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
   padding: 0;
   font-weight: 400;
   font-size: 16px;
@@ -341,6 +358,28 @@ body {
 }
 
 /* ___ contacts ___ */
+
+.contacts {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.contacts::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: block;
+  width: 1145px;
+  height: 1px;
+  background-color: #292D51;
+  transform: translateX(-50%);
+}
+
+.contacts__title {
+  margin-bottom: 41px;
+}
 
 .contacts__wrapper {
   display: flex;
@@ -350,7 +389,7 @@ body {
   position: relative;
   width: 260px;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 36px;
   margin-left: -35px;
   padding: 27px 35px;
   background-image: linear-gradient(180deg, rgba(44, 52, 81, 0.7) 0%,
@@ -374,7 +413,7 @@ body {
 }
 
 .contacts-form__field {
-  margin-bottom: 25px;
+  margin-bottom: 27px;
 }
 
 .contacts-form__field:last-of-type {
@@ -400,7 +439,8 @@ body {
 
 .contacts__address {
   margin: 0;
-  margin-bottom: 35px;
+  margin-top: 10px;
+  margin-bottom: 40px;
   padding: 0;
   line-height: 28px;
 }
@@ -415,7 +455,7 @@ body {
 }
 
 .contacts__phone {
-  margin-bottom: 35px;
+  margin-bottom: 38px;
 }
 
 .social-list {
@@ -461,5 +501,14 @@ body {
 /* ___page-footer___ */
 
 .page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
+}
+
+.page-footer__copy {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
 }
