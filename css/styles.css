@@ -371,6 +371,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  text-align: justify;
 }
 
 /* ___ contacts ___ */
@@ -433,7 +434,7 @@ body {
 }
 
 .contacts-form__field {
-  margin-bottom: 27px;
+  margin-bottom: 29px;
 }
 
 .contacts-form__field:last-of-type {
@@ -441,7 +442,9 @@ body {
 }
 
 .contacts-form__field input {
+  box-sizing: border-box;
   width: 458px;
+  height: 51px;
   margin: 0;
   padding: 15px 0;
   border: none;
@@ -451,10 +454,6 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #ffffff;
-}
-
-.contacts-form__field input::placeholder {
-  opacity: 1;
 }
 
 .contacts__address {
